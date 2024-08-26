@@ -1,0 +1,76 @@
+<nav th:fragment="navbar" class="navbar navbar-expand-sm navbar-dark"
+     style="background-color: #1f5e83; border-radius: 10px; margin: 1px;" xmlns:th="http://www.thymeleaf.org">
+
+
+    <style>
+        .header-link {
+            padding: 3px;
+            border-radius: 50px;
+            border: solid 2px transparent;
+            transition: 0.5s;
+            margin: 0px 5px;
+        }
+
+        .header-link:hover {
+            border: solid 3px;
+            color: #d65918 !important;
+        }
+
+
+        .dark-mode {
+            background-color: rgba(108, 175, 65, 0.29) !important;
+            color: #d65918 !important;
+        }
+
+    </style>
+
+    <ul class="navbar-nav mx-auto">
+        <li class="nav-item">
+            <a class="nav-link header-link" href="http://localhost:8080/">Inicio</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link header-link" href="http://localhost:8080/funcionario/">Listar Cliente</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link header-link" href="http://localhost:8080/carro/">Listar Carro</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link header-link" href="http://localhost:8080/VagaEstacionamento">Vagas Estacionamento</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link header-link" href="http://localhost:8080/Sobre">Sobre</a>
+        </li>
+    </ul>
+
+
+
+    <!-- Botão do modo dinamico -->
+    <button id="darkModeToggle" class="btn btn-outline-light ml-auto  m-1 pr-3 ">Modo Dinamico</button>
+
+    <script>
+        // Recupera a preferência do modo escuro no carregamento da página
+        document.addEventListener('DOMContentLoaded', () => {
+            if (localStorage.getItem('darkMode') === 'enabled') {
+                document.body.classList.add('dark-mode');
+                document.querySelector('.navbar').classList.add('navbar-dark-mode');
+                document.querySelectorAll('.card').forEach(card => card.classList.add('dark-mode'));
+            }
+        });
+
+        // Alterna o modo escuro e armazena a preferência no localStorage
+        const toggleButton = document.getElementById('darkModeToggle');
+        toggleButton.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+            document.querySelectorAll('.card').forEach(card => card.classList.toggle('dark-mode'));
+            document.querySelector('.navbar').classList.toggle('navbar-dark-mode');
+
+            // Armazena a preferência no localStorage
+            if (document.body.classList.contains('dark-mode')) {
+                localStorage.setItem('darkMode', 'enabled');
+            } else {
+                localStorage.removeItem('darkMode');
+            }
+        });
+    </script>
+
+</nav>

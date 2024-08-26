@@ -1,0 +1,60 @@
+html, body {
+    height: 100%; /* Garantir que o corpo e o HTML ocupem toda a altura da tela */
+    margin: 0; /* Remover margens padrão */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1;
+}
+
+.table-header, .table-body {
+    display: block;
+    width: 100%;
+}
+.table-row {
+    display: flex;
+    border-bottom: 1px solid #ddd;
+    padding: 8px 0;
+}
+.table-cell {
+    flex: 1;
+    padding: 8px;
+    text-align: left;
+}
+.table-header .table-cell {
+    font-weight: bold;
+    background-color: #f4f4f4;
+}
+.table-body {
+    margin-top: 10px;
+}
+.btn {
+    margin-right: 5px;
+}
+
+footer {
+    background-color: #1f5e83;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    margin-top: auto;
+}
+
+
+.img-fluid {
+    max-width: 50%;
+    height: auto;
+}
+
+
+.custom-img {
+    margin: 50px;
+    width: 70%;
+    max-width: 700px;
+}

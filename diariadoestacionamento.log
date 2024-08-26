@@ -1,0 +1,113 @@
+2024-08-26T00:00:33.475-03:00  INFO 3864 --- [funcionarios] [http-nio-8080-exec-2] c.f.f.controllers.CarroControler         : Um funcionario foi cadastrado
+2024-08-26T00:00:49.544-03:00  INFO 3864 --- [funcionarios] [http-nio-8080-exec-1] c.f.f.c.EstacionamentoController         : Um carro foi cadastrado
+2024-08-26T00:00:54.069-03:00  INFO 3864 --- [funcionarios] [http-nio-8080-exec-9] c.f.f.c.EstacionamentoController         : Um carro foi removido
+2024-08-26T00:00:55.353-03:00  INFO 3864 --- [funcionarios] [http-nio-8080-exec-1] c.f.f.c.EstacionamentoController         : Um carro foi removido
+2024-08-26T00:01:04.649-03:00  INFO 3864 --- [funcionarios] [http-nio-8080-exec-5] c.f.f.c.EstacionamentoController         : Um carro foi cadastrado
+2024-08-26T00:01:09.286-03:00  INFO 3864 --- [funcionarios] [http-nio-8080-exec-8] c.f.f.c.EstacionamentoController         : Um carro foi removido
+2024-08-26T00:08:28.636-03:00  INFO 3864 --- [funcionarios] [http-nio-8080-exec-9] c.f.f.c.EstacionamentoController         : Um cliente foi editado
+2024-08-26T00:09:01.076-03:00  INFO 3864 --- [funcionarios] [http-nio-8080-exec-7] c.f.f.c.EstacionamentoController         : Um carro foi cadastrado
+2024-08-26T00:14:51.196-03:00  INFO 3864 --- [funcionarios] [http-nio-8080-exec-1] c.f.f.c.EstacionamentoController         : Um carro foi removido
+2024-08-26T00:37:47.401-03:00  INFO 3864 --- [funcionarios] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-26T00:37:47.405-03:00  INFO 3864 --- [funcionarios] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-26T00:37:47.407-03:00  INFO 3864 --- [funcionarios] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-26T00:51:16.052-03:00  INFO 22348 --- [funcionarios] [restartedMain] c.f.f.FuncionariosApplication            : Starting FuncionariosApplication using Java 22.0.1 with PID 22348 (C:\Users\Will\IdeaProjects\funcionarios\target\classes started by Will in C:\Users\Will\IdeaProjects\funcionarios)
+2024-08-26T00:51:16.056-03:00  INFO 22348 --- [funcionarios] [restartedMain] c.f.f.FuncionariosApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-08-26T00:51:16.231-03:00  INFO 22348 --- [funcionarios] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-26T00:51:16.232-03:00  INFO 22348 --- [funcionarios] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-26T00:51:18.118-03:00  INFO 22348 --- [funcionarios] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-26T00:51:18.211-03:00  INFO 22348 --- [funcionarios] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 83 ms. Found 3 JPA repository interfaces.
+2024-08-26T00:51:19.120-03:00  INFO 22348 --- [funcionarios] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-26T00:51:19.138-03:00  INFO 22348 --- [funcionarios] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-26T00:51:19.138-03:00  INFO 22348 --- [funcionarios] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-26T00:51:19.199-03:00  INFO 22348 --- [funcionarios] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-26T00:51:19.199-03:00  INFO 22348 --- [funcionarios] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2966 ms
+2024-08-26T00:51:19.258-03:00  INFO 22348 --- [funcionarios] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-26T00:51:19.588-03:00  INFO 22348 --- [funcionarios] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4856abfb
+2024-08-26T00:51:19.590-03:00  INFO 22348 --- [funcionarios] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-26T00:51:19.602-03:00  INFO 22348 --- [funcionarios] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/estacionamento'
+2024-08-26T00:51:19.802-03:00  INFO 22348 --- [funcionarios] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-26T00:51:19.906-03:00  INFO 22348 --- [funcionarios] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-26T00:51:19.982-03:00  INFO 22348 --- [funcionarios] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-26T00:51:20.525-03:00  INFO 22348 --- [funcionarios] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-26T00:51:20.584-03:00  WARN 22348 --- [funcionarios] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-26T00:51:21.450-03:00  INFO 22348 --- [funcionarios] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-26T00:51:21.550-03:00  INFO 22348 --- [funcionarios] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-26T00:51:21.886-03:00  INFO 22348 --- [funcionarios] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-08-26T00:51:22.475-03:00  WARN 22348 --- [funcionarios] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-26T00:51:23.332-03:00  INFO 22348 --- [funcionarios] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-26T00:51:23.416-03:00  INFO 22348 --- [funcionarios] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-26T00:51:23.432-03:00  INFO 22348 --- [funcionarios] [restartedMain] c.f.f.FuncionariosApplication            : Started FuncionariosApplication in 8.315 seconds (process running for 12.184)
+2024-08-26T00:51:27.140-03:00  INFO 22348 --- [funcionarios] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-26T00:51:27.140-03:00  INFO 22348 --- [funcionarios] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-26T00:51:27.141-03:00  INFO 22348 --- [funcionarios] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-26T00:52:15.516-03:00  INFO 22348 --- [funcionarios] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-26T00:52:15.521-03:00  INFO 22348 --- [funcionarios] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-26T00:52:15.525-03:00  INFO 22348 --- [funcionarios] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-26T10:55:06.829-03:00  INFO 13268 --- [funcionarios] [restartedMain] c.f.f.FuncionariosApplication            : Starting FuncionariosApplication using Java 22.0.1 with PID 13268 (C:\Users\Will\IdeaProjects\funcionarios\target\classes started by Will in C:\Users\Will\IdeaProjects\funcionarios)
+2024-08-26T10:55:06.834-03:00  INFO 13268 --- [funcionarios] [restartedMain] c.f.f.FuncionariosApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-08-26T10:55:06.901-03:00  INFO 13268 --- [funcionarios] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-26T10:55:06.901-03:00  INFO 13268 --- [funcionarios] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-26T10:55:08.220-03:00  INFO 13268 --- [funcionarios] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-26T10:55:08.311-03:00  INFO 13268 --- [funcionarios] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 81 ms. Found 3 JPA repository interfaces.
+2024-08-26T10:55:09.372-03:00  INFO 13268 --- [funcionarios] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-26T10:55:09.402-03:00  INFO 13268 --- [funcionarios] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-26T10:55:09.403-03:00  INFO 13268 --- [funcionarios] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-26T10:55:09.502-03:00  INFO 13268 --- [funcionarios] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-26T10:55:09.503-03:00  INFO 13268 --- [funcionarios] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2600 ms
+2024-08-26T10:55:09.598-03:00  INFO 13268 --- [funcionarios] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-26T10:55:09.925-03:00  INFO 13268 --- [funcionarios] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@34e0f383
+2024-08-26T10:55:09.929-03:00  INFO 13268 --- [funcionarios] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-26T10:55:09.946-03:00  INFO 13268 --- [funcionarios] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/estacionamento'
+2024-08-26T10:55:10.241-03:00  INFO 13268 --- [funcionarios] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-26T10:55:10.425-03:00  INFO 13268 --- [funcionarios] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-26T10:55:10.503-03:00  INFO 13268 --- [funcionarios] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-26T10:55:11.004-03:00  INFO 13268 --- [funcionarios] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-26T10:55:11.099-03:00  WARN 13268 --- [funcionarios] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-26T10:55:11.992-03:00  INFO 13268 --- [funcionarios] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-26T10:55:12.132-03:00  INFO 13268 --- [funcionarios] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-26T10:55:12.458-03:00  INFO 13268 --- [funcionarios] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-08-26T10:55:13.216-03:00  WARN 13268 --- [funcionarios] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-26T10:55:14.155-03:00  INFO 13268 --- [funcionarios] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-26T10:55:14.216-03:00  INFO 13268 --- [funcionarios] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-26T10:55:14.230-03:00  INFO 13268 --- [funcionarios] [restartedMain] c.f.f.FuncionariosApplication            : Started FuncionariosApplication in 8.26 seconds (process running for 9.175)
+2024-08-26T10:55:27.798-03:00  INFO 13268 --- [funcionarios] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-26T10:55:27.798-03:00  INFO 13268 --- [funcionarios] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-26T10:55:27.799-03:00  INFO 13268 --- [funcionarios] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-26T12:09:43.911-03:00  INFO 13268 --- [funcionarios] [http-nio-8080-exec-1] c.f.f.c.EstacionamentoController         : Um cliente foi cadastrado
+2024-08-26T12:09:47.523-03:00  INFO 13268 --- [funcionarios] [http-nio-8080-exec-6] c.f.f.controllers.CarroControler         : Um funcionario foi cadastrado
+2024-08-26T12:10:05.510-03:00  INFO 13268 --- [funcionarios] [http-nio-8080-exec-2] c.f.f.c.EstacionamentoController         : Um cliente foi deletado
+2024-08-26T12:10:41.350-03:00  INFO 13268 --- [funcionarios] [http-nio-8080-exec-4] c.f.f.c.EstacionamentoController         : Um carro foi cadastrado
+2024-08-26T12:15:12.434-03:00  INFO 13268 --- [funcionarios] [http-nio-8080-exec-9] c.f.f.c.EstacionamentoController         : Um carro foi removido
+2024-08-26T12:21:49.079-03:00  INFO 13268 --- [funcionarios] [http-nio-8080-exec-8] c.f.f.c.EstacionamentoController         : Um cliente foi cadastrado
+2024-08-26T12:21:53.846-03:00  INFO 13268 --- [funcionarios] [http-nio-8080-exec-3] c.f.f.controllers.CarroControler         : Um funcionario foi cadastrado
+2024-08-26T12:22:22.468-03:00  INFO 13268 --- [funcionarios] [http-nio-8080-exec-9] c.f.f.controllers.CarroControler         : Um funcionario foi cadastrado
+2024-08-26T12:26:40.653-03:00  INFO 13268 --- [funcionarios] [http-nio-8080-exec-1] c.f.f.c.EstacionamentoController         : Um cliente foi cadastrado
+2024-08-26T12:26:50.441-03:00  INFO 13268 --- [funcionarios] [http-nio-8080-exec-8] c.f.f.c.EstacionamentoController         : Um cliente foi deletado
+2024-08-26T12:26:57.363-03:00  INFO 13268 --- [funcionarios] [http-nio-8080-exec-3] c.f.f.controllers.CarroControler         : Um funcionario foi cadastrado
+2024-08-26T12:27:49.608-03:00  INFO 13268 --- [funcionarios] [http-nio-8080-exec-10] c.f.f.c.EstacionamentoController         : Um carro foi cadastrado
+2024-08-26T12:28:54.055-03:00  INFO 13268 --- [funcionarios] [http-nio-8080-exec-6] c.f.f.c.EstacionamentoController         : Um carro foi removido
+2024-08-26T12:28:57.943-03:00  INFO 13268 --- [funcionarios] [http-nio-8080-exec-8] c.f.f.c.EstacionamentoController         : Um carro foi cadastrado
+2024-08-26T12:29:07.509-03:00  WARN 13268 --- [funcionarios] [http-nio-8080-exec-3] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: 23503
+2024-08-26T12:29:07.509-03:00 ERROR 13268 --- [funcionarios] [http-nio-8080-exec-3] o.h.engine.jdbc.spi.SqlExceptionHelper   : ERRO: atualização ou exclusão em tabela "listafuncionario" viola restrição de chave estrangeira "fk9rah13tthyujhyhf0nlbjaikr" em "carro_funcionario"
+  Detalhe: Chave (id)=(2) ainda é referenciada pela tabela "carro_funcionario".
+2024-08-26T12:29:07.519-03:00  INFO 13268 --- [funcionarios] [http-nio-8080-exec-3] c.f.f.c.EstacionamentoController         : Um cliente foi deletado
+2024-08-26T12:29:14.626-03:00  INFO 13268 --- [funcionarios] [http-nio-8080-exec-8] c.f.f.c.EstacionamentoController         : Um carro foi removido
+2024-08-26T12:29:17.297-03:00  INFO 13268 --- [funcionarios] [http-nio-8080-exec-3] c.f.f.c.EstacionamentoController         : Um cliente foi deletado
+2024-08-26T12:30:10.179-03:00  INFO 13268 --- [funcionarios] [http-nio-8080-exec-6] c.f.f.controllers.CarroControler         : Um funcionario foi cadastrado
+2024-08-26T12:52:51.319-03:00  INFO 13268 --- [funcionarios] [http-nio-8080-exec-8] c.f.f.c.EstacionamentoController         : Um cliente foi cadastrado
+2024-08-26T12:52:58.438-03:00  INFO 13268 --- [funcionarios] [http-nio-8080-exec-4] c.f.f.c.EstacionamentoController         : Um cliente foi editado
+2024-08-26T12:53:02.280-03:00  INFO 13268 --- [funcionarios] [http-nio-8080-exec-5] c.f.f.c.EstacionamentoController         : Um cliente foi deletado
+2024-08-26T12:53:05.105-03:00  INFO 13268 --- [funcionarios] [http-nio-8080-exec-1] c.f.f.controllers.CarroControler         : Um funcionario foi cadastrado
+2024-08-26T12:53:42.192-03:00  INFO 13268 --- [funcionarios] [http-nio-8080-exec-5] c.f.f.c.EstacionamentoController         : Um carro foi cadastrado
+2024-08-26T12:53:54.201-03:00  INFO 13268 --- [funcionarios] [http-nio-8080-exec-10] c.f.f.c.EstacionamentoController         : Um carro foi removido
+2024-08-26T12:54:00.033-03:00  INFO 13268 --- [funcionarios] [http-nio-8080-exec-2] c.f.f.c.EstacionamentoController         : Um carro foi cadastrado
+2024-08-26T12:54:06.467-03:00  WARN 13268 --- [funcionarios] [http-nio-8080-exec-7] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: 23503
+2024-08-26T12:54:06.468-03:00 ERROR 13268 --- [funcionarios] [http-nio-8080-exec-7] o.h.engine.jdbc.spi.SqlExceptionHelper   : ERRO: atualização ou exclusão em tabela "listafuncionario" viola restrição de chave estrangeira "fk9rah13tthyujhyhf0nlbjaikr" em "carro_funcionario"
+  Detalhe: Chave (id)=(5) ainda é referenciada pela tabela "carro_funcionario".
+2024-08-26T12:54:06.468-03:00  INFO 13268 --- [funcionarios] [http-nio-8080-exec-7] c.f.f.c.EstacionamentoController         : Um cliente foi deletado
+2024-08-26T12:54:14.104-03:00  INFO 13268 --- [funcionarios] [http-nio-8080-exec-2] c.f.f.c.EstacionamentoController         : Um carro foi removido
+2024-08-26T12:54:19.650-03:00  INFO 13268 --- [funcionarios] [http-nio-8080-exec-8] c.f.f.c.EstacionamentoController         : Um cliente foi deletado
+2024-08-26T12:57:39.407-03:00  INFO 13268 --- [funcionarios] [http-nio-8080-exec-2] c.f.f.controllers.CarroControler         : Um carro foi editado com sucesso
+2024-08-26T12:59:21.340-03:00  INFO 13268 --- [funcionarios] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-26T12:59:21.343-03:00  INFO 13268 --- [funcionarios] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-26T12:59:21.345-03:00  INFO 13268 --- [funcionarios] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
